@@ -32,8 +32,8 @@ const renderData = (users) => {
 function Restsite() {
     const [users, setUsers] = useState([])
     const [currentPage, setcurrentPage] = useState([1])
-    const [itemsPerPage, setitemsPerPage] = useState([10])
-    const [pageNumberLimit, setpageNumberLimit] = useState(5)
+    const [itemsPerPage] = useState([10])
+    const [pageNumberLimit] = useState(5)
     const [maxPageNumberLimit, setmaxPageNumberLimit] = useState(5)
     const [minPageNumberLimit, setminPageNumberLimit] = useState(0)
 

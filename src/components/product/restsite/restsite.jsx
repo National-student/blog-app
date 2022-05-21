@@ -96,12 +96,12 @@ function Restsite() {
                 {renderData(currentItems)}
                 <ul className='render-number'>
                     <li>
-                        <button className='Pr' onClick={handlePrevbtn} desabled={currentPage === pages[0] ? true : false}>
+                        <button className='Pr' onClick={handlePrevbtn} desabled={currentPage === pages[0] ? "true" : "false"}>
                             <img src={icon} alt="icon" /> </button>
                     </li>
                     {renderPageNumber}
                     <li>
-                        <button className='nx' onClick={handleNextbtn} desabled={currentPage === pages[pages.length - 1] ? true : false} >
+                        <button className='nx' onClick={handleNextbtn} desabled={currentPage === pages[pages.length - 1] ? "true" : "false"} >
                             <img src={arrow} alt="arrow" width={6} height={11}/>
                         </button>
                     </li>
@@ -111,4 +111,4 @@ function Restsite() {
     )
 
 }
-export default Restsite;
+export default Restsite; 
